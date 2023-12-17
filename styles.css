@@ -1,0 +1,172 @@
+#container{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-rows: auto 50%;
+}
+
+#item:hover{
+    background-color: blue;
+}
+
+
+
+
+
+
+
+/*body{
+    background-color: red;
+}
+
+@media (orientation: portrait){
+    body{
+        background-color: blueviolet;
+    }
+}
+@media (orientation: landscape){
+    body{
+        background-color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    opacity: 10%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+div:hover{
+    opacity: 100%;
+}
+#YouTube{
+    background-color: red;
+}
+#TikTok{
+    background-color: aqua;
+}
+#Twitch{
+    background-color: blueviolet;
+}*/
+
+/*img{
+    height: 100px;
+    width: 120px;
+    animation-name: sizeAnimation,colorAnimation,transformAnimation;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s,2.5s,2.5s;
+
+}
+
+
+
+@keyframes sizeAnimation {
+    from{
+        height: 500px;
+        width: 600px;
+    }
+    25%{
+        height: 1000px;
+        width: 1200px;
+    }
+    50%{
+        height: 500px;
+        width: 600px;
+    }
+    75%{
+        height: 1000px;
+        width: 1200px;
+    }
+    to{
+        height: 500px;
+        width: 600px;
+    }
+}
+
+@keyframes transformAnimation {
+        from{
+            transform:rotate(0deg);
+        }
+        25%{
+            transform:rotate(360deg);
+
+        }
+        50%{
+            transform: rotate(720deg);
+        }
+        75%{
+            transform:rotate(1080deg);
+
+        }
+        to{
+            transform:rotate(1440deg);
+        }
+}    
+@keyframes colorAnimation {
+    from {
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: rgb(25, 212, 25);
+    }
+    75%{
+        background-color: blue;
+    }
+    to{
+        background-color: blueviolet
+        
+    }
+}
+*/
+/*
+@keyframes opacityAnimation {
+    from {
+        opacity: 100%;
+    }
+    25%{
+        opacity: 75%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 25%;
+    }
+    to{
+        opacity: 0%;
+        }
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: colorAnimation, opacityAnimation;
+    animation-duration: 5s, 5s;
+    animation-delay: 1s, 2;
+    animation-iteration-count: infinite;
+}
+
+/*div:hover{
+    background-color: blue;
+}*/
